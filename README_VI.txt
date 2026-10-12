@@ -1,46 +1,15 @@
-COZY NAIL & HEAD SPA — BẢN WEBSITE DÙNG HÌNH/VIDEO THẬT
+COZY — CẬP NHẬT 5 GOOGLE REVIEWS CÓ TÊN KHÁCH
 
-Mình đã chọn:
-- Video lash thật làm Hero đầu trang.
-- Video massage thật làm section relaxation.
-- Video nail ngắn làm gallery động.
-- Ảnh nail/lash thật của Cozy làm service cards và gallery.
-- Logo Cozy thật trong header/footer.
+CHỈ CẦN THAY MỘT FILE: index.html (trong root repository cozy-nail-head-spa)
 
-BOOKING
-Mở assets/js/content.js
-Tìm: PASTE-YOUR-BOOKING-LINK-HERE
-Thay bằng link booking thật. Mọi nút Book Now tự cập nhật.
+1. Giải nén file ZIP này.
+2. Vào GitHub, repo cozy-nail-head-spa, tab Code.
+3. Chọn Add file > Upload files; kéo file index.html vào (không kéo ZIP).
+4. Commit changes. Nếu GitHub yêu cầu xác nhận thay thế, đồng ý thay thế index.html.
+5. Sau khi GitHub Pages deploy, mở https://cozynailandheadspa.com/#reviews ở cửa sổ ẩn danh.
+6. Kiểm tra 5 tên: B&R Varner; Mary Ellen Perkinson; Lissa Eikrem; Beth Welka; Alexys Mumford.
+7. Kiểm tra nút See More Reviews on Google dẫn tới: https://maps.app.goo.gl/F1xXu7MnUmR81qBM8
 
-ĐỔI GIÁ
-Mở admin/editor.html, sửa giá và bấm Download content.js.
-Sau đó replace assets/js/content.js trên GitHub.
+KHÔNG XÓA thư mục assets, services hay file CNAME. KHÔNG cần cấu hình lại DNS.
 
-ĐỔI HÌNH
-Chỉ replace file cùng tên trong assets/images.
-Ví dụ: muốn đổi hình Nails thì replace assets/images/nails.jpg.
-
-ĐỔI VIDEO
-Replace:
-- assets/video/lashes-hero.mp4 = video Hero
-- assets/video/massage.mp4 = video relaxation
-- assets/video/nails-loop.mp4 = video Nail gallery
-
-Nếu video mới quá nặng, nên nén trước khi upload để site tải nhanh.
-
-HOST MIỄN PHÍ
-1. Tạo GitHub repository Public.
-2. Upload toàn bộ folder/file.
-3. Settings > Pages.
-4. Source: Deploy from a branch.
-5. main / (root) > Save.
-
-SEO
-Sau khi có URL thật:
-- Replace YOUR-DOMAIN trong HTML, robots.txt, sitemap.xml.
-- Add website vào Google Search Console.
-- Submit sitemap.xml.
-- Update Website trong Google Business Profile.
-
-LƯU Ý
-Không có website nào bảo đảm đứng #1 Google. Local SEO còn phụ thuộc Google Business Profile, review, khoảng cách người tìm, local citations, nội dung và cạnh tranh.
+Lưu ý: Đây là review chọn lọc, không tự đồng bộ; sau này gửi review mới để cập nhật.
