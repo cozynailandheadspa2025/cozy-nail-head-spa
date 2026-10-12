@@ -94,3 +94,54 @@ html{scroll-behavior:smooth}body{overflow-x:hidden}
 .cozy-footer-days{font-size:13px;line-height:1.85}
 #follow-along{scroll-margin-top:85px}
 @media(max-width:600px){.cozy-footer-days{font-size:13px}.cozy-hours-row{grid-template-columns:minmax(0,1fr) auto}}
+
+
+/* Contact & Hours redesign — two columns plus a full-width social section */
+.cozy-contact-v2 {background:#faf7f2;padding-top:108px;padding-bottom:112px}
+.cozy-contact-v2 .cozy-contact-heading {max-width:730px;margin-bottom:44px}
+.cozy-contact-v2 .cozy-contact-heading .eyebrow{margin-bottom:13px}
+.cozy-contact-v2 .cozy-contact-heading h2{margin-bottom:13px}
+.cozy-v2-contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:23px;align-items:stretch}
+.cozy-v2-card{padding:clamp(24px,3vw,38px);background:#fff;border:1px solid #e5dacf;box-shadow:0 13px 38px rgba(59,45,33,.035);min-width:0}
+.cozy-v2-card-heading{display:flex;align-items:center;gap:18px;padding-bottom:23px;border-bottom:1px solid #ece5de}
+.cozy-v2-heading-icon{width:50px;height:50px;flex:0 0 50px;display:grid;place-items:center;border:1px solid #e5d7c8;border-radius:50%;background:#f8f2ea;color:#927251}
+.cozy-v2-heading-icon svg{width:23px;height:23px}
+.cozy-v2-card-heading .eyebrow{font-size:10px;letter-spacing:.18em}
+.cozy-v2-card-heading h3{font:normal clamp(30px,2.8vw,38px)/1.2 Georgia,serif;letter-spacing:-.025em;color:#30251f;margin:7px 0 0}
+.cozy-v2-hours-list{margin-top:18px}
+.cozy-v2-hours-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:8px 15px;border-bottom:1px solid #efe9e3;padding:13px 0;color:#4e4238;font-size:14px}
+.cozy-v2-day{font-weight:550;display:flex;flex-direction:column;line-height:1.5}
+.cozy-v2-day small{font-size:11px;letter-spacing:.015em;color:#9b7966;font-weight:500;margin-top:3px}
+.cozy-v2-time{color:#392d25;font-size:14px;font-weight:600;white-space:nowrap;text-align:right}
+.cozy-v2-note{font-size:12px;line-height:1.7;color:#847467;margin:22px 0 19px}
+.cozy-v2-inline-action{display:inline-flex;gap:12px;align-items:center;border-bottom:1px solid #a78462;text-transform:uppercase;font-size:11px;letter-spacing:.11em;font-weight:750;color:#735037;padding-bottom:5px}
+.cozy-v2-location-card{display:flex;flex-direction:column}
+.cozy-v2-address{padding:20px 0 16px}
+.cozy-v2-address-label{font-size:10px;letter-spacing:.18em;color:#a17c5d;font-weight:700;margin-bottom:7px}
+.cozy-v2-address a{font:normal 20px/1.55 Georgia,serif;color:#372b22}
+.cozy-v2-address a:hover{text-decoration:underline}
+.cozy-v2-map{position:relative;min-height:220px;flex:1;border:1px solid #e2d9cf;background:linear-gradient(140deg,#ece8e0,#d9e0d6);overflow:hidden}
+.cozy-v2-map iframe{position:absolute;inset:0;border:0;width:100%;height:100%;z-index:2}
+.cozy-v2-map-hint{position:absolute;bottom:0;left:0;right:0;padding:10px;background:#fffcf8d9;color:#817467;font-size:12px;text-align:center}
+.cozy-v2-location-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:19px}
+.cozy-v2-location-actions .btn{min-height:43px;padding:10px 16px;font-size:10px;letter-spacing:.08em;flex:1;text-align:center}
+.cozy-v2-follow{margin-top:26px;padding:39px clamp(20px,4vw,48px) 42px;background:#f0e8de;border:1px solid #e5d7c9;scroll-margin-top:110px}
+.cozy-v2-follow-header{text-align:center;margin:0 auto 28px;max-width:670px}
+.cozy-v2-follow-header h3{font:normal clamp(32px,3.5vw,45px)/1.22 Georgia,serif;color:#352820;margin:8px 0 11px}
+.cozy-v2-follow-header p{font-size:14px;line-height:1.7;margin:0;color:#79685b}
+.cozy-v2-social-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.cozy-v2-social-grid>a{display:flex;align-items:center;gap:13px;min-width:0;background:#fffdf9;border:1px solid #ddcfc1;padding:17px 18px;min-height:82px;transition:box-shadow .2s,transform .2s,border-color .2s}
+.cozy-v2-social-grid>a:hover,.cozy-v2-social-grid>a:focus-visible{transform:translateY(-2px);box-shadow:0 10px 23px #49382b19;border-color:#b89b80}
+.cozy-v2-social-icon{height:44px;width:44px;min-width:44px;display:grid;place-items:center;background:#f1e7db;color:#755940;border-radius:50%}
+.cozy-v2-social-icon svg{height:23px;width:23px}
+.cozy-v2-social-label{min-width:0;display:flex;flex-direction:column;line-height:1.35}
+.cozy-v2-social-label strong{font-size:14px;letter-spacing:.025em;color:#392b22}
+.cozy-v2-social-label small{font-size:11px;letter-spacing:0;color:#877769;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+.cozy-v2-arrow{margin-left:auto;align-self:center;color:#977154;font-size:20px;line-height:1}
+@media (max-width:940px){.cozy-v2-contact-grid{grid-template-columns:1fr}.cozy-v2-map{height:300px;flex:none}.cozy-v2-social-grid>a{padding:14px 12px}.cozy-v2-social-icon{width:40px;height:40px;min-width:40px}.cozy-v2-social-label small{font-size:10px}}
+@media (max-width:700px){.cozy-contact-v2{padding-top:69px;padding-bottom:76px}.cozy-v2-contact-grid{gap:15px}.cozy-v2-card{padding:25px 22px}.cozy-v2-map{height:240px}.cozy-v2-follow{padding:32px 20px;margin-top:16px}.cozy-v2-social-grid{grid-template-columns:1fr;gap:10px}.cozy-v2-social-grid>a{padding:12px 17px;min-height:69px}.cozy-v2-social-label small{font-size:12px}}
+@media (max-width:385px){.cozy-v2-card{padding:21px 16px}.cozy-v2-card-heading{gap:10px}.cozy-v2-heading-icon{width:39px;height:39px;flex-basis:39px}.cozy-v2-heading-icon svg{width:20px;height:20px}.cozy-v2-time{font-size:12px}.cozy-v2-hours-row{font-size:13px}.cozy-v2-location-actions{flex-direction:column}}
+
+/* Follow Along above the Hours / Location cards */
+.cozy-contact-v2 .cozy-v2-follow{margin:0 0 26px}
+@media(max-width:700px){.cozy-contact-v2 .cozy-v2-follow{margin:0 0 16px}}
