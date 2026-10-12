@@ -41,3 +41,41 @@
 @media(max-width:700px){.cozy-extras{padding:55px 0 66px}.cozy-extras-intro{grid-template-columns:1fr;gap:18px}.cozy-extras-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 13px}.cozy-extra-card h3{font-size:21px;min-height:0}.cozy-extra-category{margin-top:14px}.cozy-extras-footer{align-items:flex-start;flex-direction:column}.cozy-extras-actions{width:100%}.cozy-extras-actions .btn{flex:1;text-align:center;justify-content:center}}
 @media(max-width:390px){.cozy-extras-grid{grid-template-columns:1fr}.cozy-extra-image{aspect-ratio:5/4}.cozy-extras-actions .btn{width:100%}}
 @media(prefers-reduced-motion:reduce){.cozy-extra-image img{transition:none}}
+
+/* 2026 polish pass: simpler navigation, stronger service hierarchy and reliable touch targets */
+html{scroll-behavior:smooth}body{overflow-x:hidden}
+.services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:stretch}
+.service-card{height:100%;display:flex;flex-direction:column;min-width:0;background:#fff;border:1px solid #e9e1d6;transition:box-shadow .2s,transform .2s}
+.service-card:hover,.service-card:focus-visible{transform:translateY(-3px);box-shadow:0 16px 38px rgba(54,39,28,.10)}
+.service-card .service-img{aspect-ratio:4/3;overflow:hidden;background:#f2ebe2}
+.service-card .service-img img{width:100%;height:100%;object-fit:cover;transition:transform .35s}
+.service-card:hover img{transform:scale(1.035)}
+.service-card .body{display:flex;flex-direction:column;flex:1;padding:26px 26px 24px}
+.service-card .body h3{font-size:clamp(28px,2.2vw,34px);margin:8px 0 12px}
+.service-card .body p{line-height:1.7;font-size:14px;margin-bottom:16px}
+.service-card .price-preview{margin-top:auto;padding:13px 0 12px;font-size:12px;font-weight:700;border-top:1px solid #eee5d8;line-height:1.65;color:#5f4638}
+.service-card .text-link{padding-top:9px;font-size:12px;line-height:1.6}
+.cozy-tiers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.cozy-tier{padding:33px 28px;background:#fffcf8;border:1px solid #dfd1bd;display:flex;flex-direction:column;min-width:0;gap:5px}
+.cozy-tier.featured{border-color:#b99a75;box-shadow:0 9px 26px #6a4b2812}
+.cozy-tier h3{font-size:30px;margin:7px 0 0;min-height:65px}
+.cozy-tier-price{font-size:26px;font-family:Georgia,serif;font-weight:400;color:#715035}
+.cozy-tier p{font-size:14px;line-height:1.7;margin:9px 0 13px}
+.cozy-tier a{margin-top:auto}
+.cozy-price-note{text-align:center;font-size:12px;margin:20px 0 0;line-height:1.6}
+.nav-links{gap:20px}.nav-links>a:not(.btn){white-space:nowrap}.nav .btn{white-space:nowrap}
+.menu-item{align-items:start}.menu-item .price{white-space:nowrap}
+.page-pic img{width:100%;height:100%;object-fit:cover}
+.cozy-noscript{margin:0;padding:9px;text-align:center;background:#ede4d9;color:#574432}
+@media(max-width:980px){.services-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cozy-tiers{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.cozy-tier{padding:24px 18px}.cozy-tier h3{font-size:26px}.nav-links{gap:12px}}
+@media(max-width:760px){.services-grid{grid-template-columns:1fr;gap:20px}.cozy-tiers{grid-template-columns:1fr}.cozy-tier h3{min-height:0}.service-card .service-img{aspect-ratio:16/11}.service-card .body{padding:23px}.cozy-headspa-pricing{padding:65px 0}.nav-links{gap:0}.nav-links a{min-height:44px;display:flex;align-items:center}.mobile-actions a{min-height:46px}}
+
+.cozy-more-heading{margin:66px 0 29px;padding-top:48px;border-top:1px solid #e9e0d6;text-align:center}
+.cozy-more-heading h3{font-size:clamp(32px,3.4vw,48px);margin:10px 0 11px}
+.cozy-more-heading p{max-width:610px;margin:0 auto;line-height:1.8}
+.services-grid.is-secondary{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.services-grid.is-secondary .service-card .body{padding:22px 18px}
+.services-grid.is-secondary .service-card h3{font-size:27px}
+.services-grid.is-secondary .service-card .body p{font-size:13px}
+@media(max-width:1000px){.services-grid.is-secondary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.services-grid.is-secondary{grid-template-columns:1fr}.cozy-more-heading{margin-top:42px;padding-top:42px}}

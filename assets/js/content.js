@@ -431,7 +431,7 @@ window.COZY = {
       "short": "Pedicures",
       "kicker": "SIT BACK. UNWIND. GLOW.",
       "summary": "Relaxing foot care, expert polish and spa touches designed to make your day feel lighter.",
-      "image": "assets/images/pedicure-chairs.webp",
+      "image": "assets/images/salon.webp",
       "description": "Settle into a relaxing pedicure chair for personalized foot care. Choose from a classic clean-up, a spa treatment or a more indulgent experience with hot stones and additional care.",
       "highlights": [
         "Nail and cuticle grooming",
@@ -491,7 +491,7 @@ window.COZY = {
       "short": "Massage",
       "kicker": "REST, RESTORE, RESET",
       "summary": "Make room to slow down with relaxing massage experiences, from targeted tension relief to full-body care.",
-      "image": "assets/images/spa-tray.webp",
+      "image": "assets/images/massage-treatment.webp",
       "description": "Book classic massage or CBD-infused massage, with focused neck, shoulder and back options or a longer whole-body treatment. Share your pressure preferences with your therapist.",
       "highlights": [
         "Classic relaxation massage",
@@ -559,7 +559,7 @@ window.COZY = {
       "short": "Facials",
       "kicker": "GLOW WITH CARE",
       "summary": "Soothing facial services for cleansing, hydration and moments of self-care.",
-      "image": "assets/images/head-spa-ritual-poster.webp",
+      "image": "assets/images/facial-treatment.webp",
       "description": "Unwind with facials designed around cleansing, relaxation and hydration. Ask the team which option best suits your skin and the time you have available.",
       "highlights": [
         "Cleansing and gentle skin care",
