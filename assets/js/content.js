@@ -9,8 +9,11 @@ window.COZY = {
     "bookingUrl": "https://booking.gocheckin.net/v2/16063",
     "instagram": "@leviann_nailsnspa",
     "instagramUrl": "https://www.instagram.com/leviann_nailsnspa/",
+    "facebookUrl": "https://www.facebook.com/cozynailandheadspa",
+    "tiktokUrl": "https://www.tiktok.com/@cozynailandheadspa",
     "domain": "https://cozynailandheadspa.com",
-    "mapsUrl": "https://maps.app.goo.gl/F1xXu7MnUmR81qBM8"
+    "mapsUrl": "https://maps.app.goo.gl/F1xXu7MnUmR81qBM8",
+    "hours": {"Monday": "11:00 AM – 5:30 PM", "Tuesday": "9:30 AM – 7:00 PM", "Wednesday": "9:30 AM – 7:00 PM", "Thursday": "9:30 AM – 7:00 PM", "Friday": "9:30 AM – 7:00 PM", "Saturday": "9:30 AM – 7:00 PM", "Sunday": "11:00 AM – 5:00 PM"}
   },
   "hero": {
     "eyebrow": "CYPRESS, TEXAS · NAILS · LASHES · HEAD SPA",
@@ -24,7 +27,7 @@ window.COZY = {
       "short": "Nails",
       "kicker": "THE ART OF DETAILS",
       "summary": "From understated classics to intricate nail art, find the look that feels like you. Manicures, acrylic refills, gel and tap hybrid gel available.",
-      "image": "assets/images/nails-blue.webp",
+      "image": "assets/images/nail-art-feature.webp",
       "description": "Enjoy careful nail shaping, cuticle work and a finish that fits your everyday style or a special occasion. Explore traditional manicures, acrylic enhancements, gel and detailed nail art.",
       "highlights": [
         "Manicures and gel polish",
@@ -491,7 +494,7 @@ window.COZY = {
       "short": "Massage",
       "kicker": "REST, RESTORE, RESET",
       "summary": "Make room to slow down with relaxing massage experiences, from targeted tension relief to full-body care.",
-      "image": "assets/images/massage-live.webp",
+      "image": "assets/images/massage-feature.webp",
       "description": "Book classic massage or CBD-infused massage, with focused neck, shoulder and back options or a longer whole-body treatment. Share your pressure preferences with your therapist.",
       "highlights": [
         "Classic relaxation massage",
