@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://YOUR-DOMAIN/sitemap.xml
+Disallow: /admin/
+Sitemap: https://cozynailandheadspa.com/sitemap.xml
