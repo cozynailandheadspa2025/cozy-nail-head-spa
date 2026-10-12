@@ -491,7 +491,7 @@ window.COZY = {
       "short": "Massage",
       "kicker": "REST, RESTORE, RESET",
       "summary": "Make room to slow down with relaxing massage experiences, from targeted tension relief to full-body care.",
-      "image": "assets/images/massage-treatment.webp",
+      "image": "assets/images/massage-live.webp",
       "description": "Book classic massage or CBD-infused massage, with focused neck, shoulder and back options or a longer whole-body treatment. Share your pressure preferences with your therapist.",
       "highlights": [
         "Classic relaxation massage",

@@ -79,3 +79,13 @@ html{scroll-behavior:smooth}body{overflow-x:hidden}
 .services-grid.is-secondary .service-card .body p{font-size:13px}
 @media(max-width:1000px){.services-grid.is-secondary{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.services-grid.is-secondary{grid-template-columns:1fr}.cozy-more-heading{margin-top:42px;padding-top:42px}}
+
+/* Massage: real in-salon treatment video, 2026-10 */
+.cozy-massage-moment-grid{display:grid;grid-template-columns:minmax(220px,.8fr) minmax(0,1.2fr);gap:clamp(24px,6vw,85px);align-items:center;max-width:950px;margin-inline:auto}
+.cozy-massage-video-wrap{max-width:340px;width:100%;margin:0 auto;overflow:hidden;border-radius:3px;background:#e7d8c8;box-shadow:0 15px 55px #30231a17}
+.cozy-massage-video{display:block;width:100%;aspect-ratio:320/568;object-fit:cover;background:#e7d8c8}
+.cozy-massage-moment-copy h2{font-family:Georgia,serif;font-weight:400;font-size:clamp(34px,4vw,56px);line-height:1.12;margin:14px 0 18px}
+.cozy-massage-moment-copy>p{color:#6e6154;font-size:15px;line-height:1.85;margin:0 0 20px}
+.cozy-massage-moment-copy .cozy-footnote{font-size:12px;line-height:1.65;color:#806f63;margin-bottom:26px}
+@media(max-width:700px){.cozy-massage-moment-grid{grid-template-columns:1fr;gap:30px}.cozy-massage-video-wrap{max-width:300px}.cozy-massage-moment-copy{text-align:center}}
+@media(prefers-reduced-motion:reduce){.cozy-massage-video{animation:none}}
