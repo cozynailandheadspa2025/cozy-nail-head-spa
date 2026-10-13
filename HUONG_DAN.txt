@@ -1,12 +1,10 @@
-COZY – BỎ RIÊNG BANNER HEAD SPA NỀN NÂU
+CAP NHAT CHI BO BANG GIO TRONG FOOTER
 
-Đã bỏ phần “First time at Head Spa? There’s something for you.” rộng toàn màn hình.
-Giữ nguyên popup, announcement bar, video, Call Us, Gallery, Contact & Hours và Google Reviews.
+1. Tai ZIP va giai nen.
+2. Vao GitHub repository cozy-nail-head-spa.
+3. Upload file index.html vao thu muc goc, thay file cu.
+4. Bam Commit changes, cho GitHub Pages deploy, kiem tra Incognito.
 
-HƯỚNG DẪN:
-1. Giải nén ZIP.
-2. Mở GitHub repository cozy-nail-head-spa, tại thư mục gốc.
-3. Upload index.html, chọn ghi đè file cũ.
-4. Commit changes và kiểm tra bằng cửa sổ Incognito.
-
-LƯU Ý: File sửa dựa trên bản index.html gần nhất đã chuẩn bị cho Promotion. Nếu bạn đã chỉnh index.html trên GitHub sau đó, nên gửi lại bản mới trước khi ghi đè.
+Chi xoa cot Business Hours o FOOTER. Phan Contact & Hours phia tren van duoc giu nguyen.
+File duoc tao tu ban index.html moi nhat da chuan bi trong cuoc tro chuyen (bao gom Promotion + Call Us + Gallery, va da bo banner Head Spa nen nau theo ban gan nhat).
+NEU ban chua upload cac ban truoc hoac vua chinh index.html tren GitHub, hay gui ban index.html moi nhat de tranh ghi de nhung phan moi.
