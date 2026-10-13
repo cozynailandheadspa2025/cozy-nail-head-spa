@@ -1,0 +1,13 @@
+COZY NAIL & HEAD SPA — CHỈ CẬP NHẬT ẢNH LASH + PEDICURE
+
+1. Giải nén file ZIP.
+2. Vào GitHub repository cozy-nail-head-spa > assets > images.
+3. Chọn Add file > Upload files.
+4. Kéo 6 file .webp trong thư mục assets/images của ZIP vào (KHÔNG upload file ZIP).
+5. Commit changes.
+6. Kiểm tra trang web trong Incognito. Nếu trang thường còn ảnh cũ, Ctrl+Shift+R.
+
+Ảnh: lash-eye.webp và lash-feature-2026.webp = ảnh cận mắt lash đã chọn;
+pedicure-chairs.webp, pedicure-video-feature.webp, pedicure-feature-2026.webp = ảnh pedicure massage chân;
+spa-tray.webp = ảnh mâm spa mới đã duyệt.
+Các tên dự phòng nhằm khớp với các phiên bản trang chủ khác nhau. Không sửa HTML, CSS, video hoặc Contact.
