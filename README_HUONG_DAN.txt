@@ -1,19 +1,7 @@
-COZY – THAY VIDEO PEDICURE CŨ BẰNG VIDEO MỚI (KHÔNG CẦN THAY HTML)
+COZY - Them nut Call Us tren trang chu.
 
-Hai tên file trong assets/video/ đều chứa CÙNG MỘT video Pumpkin Pedicure mới (16 giây):
- - pedicure.mp4 (thay video cũ đang được trang Pedicures gọi)
- - pedicure-real-2026.mp4 (cập nhật tên video đã dùng trong bản HTML mới)
+Trong GitHub, mo repo cozy-nail-head-spa, tai len va ghi de file index.html o thu muc goc, sau do Commit changes.
+NUT MOI: Call Us (tel:+12817582111), nam ngay sau Book Your Visit tren trang chu.
+Khong thay doi Gallery, Contact & Hours, Reviews, video, anh hay gia dich vu trong file index.html.
 
-CÁCH LÀM AN TOÀN:
-1. Mở repository GitHub cozy-nail-head-spa, vào chính thư mục assets/video.
-2. Chọn Add file -> Upload files, kéo 2 file MP4 ở trong thư mục assets/video vừa giải nén (KHÔNG upload nguyên ZIP).
-3. Nếu GitHub báo thay file trùng tên, chọn ghi đè/commit cập nhật.
-4. Kiểm tra trong assets/video có cả hai tên file và commit mới nhất.
-5. Đợi GitHub Actions -> pages build and deployment thành công.
-6. Mở link kiểm tra không dùng cache:
-   https://cozynailandheadspa.com/assets/video/pedicure.mp4?v=20261012fix2
-   https://cozynailandheadspa.com/assets/video/pedicure-real-2026.mp4?v=20261012fix2
-7. Sau đó mở trang: https://cozynailandheadspa.com/services/pedicures.html
-
-Không thay index.html, không xóa video khác, không cần đổi DNS/Namecheap.
-Nếu 2 link trực tiếp phát video mới nhưng trang Pedicures vẫn hiển thị video khác, vui lòng gửi ảnh màn hình URL bạn đang xem để kiểm tra đúng vị trí.
+Luu y: File nay dua tren ban index.html user tai len ngay 12/10/2026, cong them nut View Full Gallery o goi da duyet. Neu trang chu tren GitHub da co sua doi khac sau ngay nay, hay gui lai index moi nhat truoc khi ghi de.
