@@ -1,0 +1,22 @@
+COZY NAIL & HEAD SPA — THÊM TRANG GALLERY (DÙNG index.html BẠN VỪA GỬI)
+
+Gói này KHÔNG CÓ bản website đầy đủ. Đây là bản cập nhật có kiểm soát:
+- index.html: bản chính do bạn gửi, chỉ thêm 1 nút View Full Gallery ngay dưới 5 ảnh hiện tại.
+- gallery.html: trang Gallery mới có lọc theo dịch vụ, mở ảnh lớn, Load More.
+- assets/js/gallery-photos.js: danh sách 22 ảnh mẫu và danh mục.
+- assets/gallery/: 22 ảnh mẫu cùng 1 ảnh nổi bật.
+
+CÁCH UPLOAD GITHUB:
+1. Giải nén ZIP.
+2. Upload index.html và gallery.html vào thư mục gốc repository.
+3. Tạo assets/gallery/ (nếu chưa có) rồi upload các file .webp vào đó.
+4. Upload assets/js/gallery-photos.js vào assets/js/.
+5. Commit changes và đợi GitHub Pages xuất bản.
+6. Truy cập https://cozynailandheadspa.com/ rồi bấm View Full Gallery, hoặc vào https://cozynailandheadspa.com/gallery.html
+
+LƯU Ý:
+- Không xóa bất kỳ file nào trong repository.
+- Các trang services/, video, Contact & Hours, Reviews, stylesheet, script trang chủ vẫn giữ nguyên.
+- 22 ảnh là bộ mẫu từ website đã chuẩn bị trước, nên hãy duyệt kỹ xem ảnh nào muốn giữ trước khi dùng làm portfolio chính thức.
+- Sau này muốn thêm ảnh: tải ảnh .webp vào assets/gallery/ và thêm 1 mục mới trong assets/js/gallery-photos.js; không cần chỉnh bố cục.
+- index.html được dựng trực tiếp từ file bạn tải lên cuộc trò chuyện này; không dựa vào bản trang chủ cũ.

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="theme-color" content="#faf7f2"/>
+<title>Photo Gallery | Cozy Nail &amp; Head Spa</title><link rel="canonical" href="https://cozynailandheadspa.com/gallery.html"/>
+<meta name="description" content="Explore nail art, lash extensions, pedicure moments, and spa experiences in Cozy Nail & Head Spa's photo gallery in Cypress, Texas."/>
+<style>
+:root{--ink:#2d251e;--muted:#86766a;--gold:#a88361;--coffee:#544032;--cream:#faf7f2;--sand:#f1eae2;--line:#e6dbcf;--white:#fff;--font:'DM Sans',Arial,sans-serif;--display:'Italiana',Georgia,serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font:400 14px/1.65 var(--font);-webkit-font-smoothing:antialiased}
+body.no-scroll{overflow:hidden}
+a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}img{max-width:100%;display:block}
+.container{width:min(1180px,calc(100% - 44px));margin:0 auto}
+.preview-bar{background:#544032;color:#fff;text-align:center;letter-spacing:.17em;font-weight:700;font-size:9px;padding:9px 14px;text-transform:uppercase}
+.site-header{position:sticky;top:0;z-index:30;background:#faf7f2ee;backdrop-filter:blur(16px);border-bottom:1px solid #e6dbcf}
+.nav{display:flex;align-items:center;justify-content:space-between;height:83px;gap:24px}
+.brand{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.brand img{width:58px;height:58px;object-fit:contain;mix-blend-mode:multiply}
+.brand-copy{font-family:var(--display);font-size:22px;line-height:1.05;letter-spacing:.025em;color:#433629}
+.brand-copy span{display:block;font:500 9px/1.8 var(--font);letter-spacing:.32em;text-align:center}
+.nav-links{display:flex;align-items:center;gap:28px}
+.nav-links>a:not(.book-btn){font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.nav-links>a.is-current{border-bottom:1px solid var(--gold);padding-bottom:5px;color:#9a6a42}
+.book-btn{background:#33281f;color:white;padding:14px 21px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;white-space:nowrap}
+.menu-btn{display:none;border:1px solid var(--line);padding:8px 13px;background:transparent;font-size:23px}
+.hero{background:linear-gradient(120deg,#f6f0e7,#faf7f2 60%);border-bottom:1px solid var(--line);overflow:hidden}
+.hero-inner{display:grid;grid-template-columns:1.04fr .96fr;align-items:center;gap:55px;padding:64px 0 70px}
+.eyebrow{font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:#9e7754;font-weight:700}
+.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(63px,7.8vw,116px);line-height:.99;letter-spacing:-.035em;margin:22px 0 22px}
+.hero h1 span{display:block;color:#ad8567;font-style:italic}
+.hero-lead{font-size:15px;line-height:1.9;color:#69594c;max-width:465px;margin:0}
+.hero-lines{display:flex;align-items:center;gap:16px;margin-top:33px;color:#8f7660;text-transform:uppercase;letter-spacing:.16em;font-size:10px;font-weight:700}
+.hero-lines i{width:46px;height:1px;background:#bda58b;display:block}
+.hero-frame{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:170px 170px;gap:13px;position:relative;padding:18px 20px 12px 10px}
+.hero-frame:before{content:"";position:absolute;top:-13px;right:0;width:65%;height:75%;border:1px solid #ceb69c;z-index:0}
+.hero-frame img{width:100%;height:100%;object-fit:cover;position:relative;z-index:1}
+.hero-frame img:first-child{grid-row:span 2}
+.hero-frame img:nth-child(2){object-position:center 30%}
+.hero-frame img:nth-child(3){object-position:center}
+.hero-medallion{position:absolute;z-index:2;left:-9px;bottom:-15px;background:#fff;padding:18px 23px;box-shadow:0 12px 34px #48351e1a;max-width:186px}
+.hero-medallion span{font-family:var(--display);font-size:27px;line-height:1}
+.hero-medallion small{display:block;color:#8f7767;font-size:9px;letter-spacing:.12em;text-transform:uppercase;margin-top:7px}
+.collection{padding:76px 0 98px}
+.section-overline{text-align:center}
+.section-heading{font-family:var(--display);text-align:center;font-size:clamp(38px,5vw,67px);font-weight:400;line-height:1.12;margin:12px 0 11px}
+.section-sub{color:#796c60;text-align:center;max-width:520px;margin:0 auto 30px;font-size:14px;line-height:1.8}
+.filter-row{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 auto 31px;max-width:980px}
+.filter-btn{border:1px solid #d7cbbd;background:transparent;color:#6b5a4c;padding:10px 19px;white-space:nowrap;border-radius:100px;font-weight:600;letter-spacing:.01em;font-size:12px;transition:background .2s,color .2s,border-color .2s}
+.filter-btn:hover{border-color:#88694e}
+.filter-btn[aria-pressed="true"]{background:#4c392c;border-color:#4c392c;color:#fff}
+.count-row{display:flex;justify-content:space-between;align-items:center;color:#928173;font-size:11px;letter-spacing:.07em;margin-bottom:18px;border-top:1px solid var(--line);padding-top:17px}
+.masonry{columns:4;column-gap:17px}
+.photo-card{display:block;break-inside:avoid;position:relative;overflow:hidden;cursor:zoom-in;background:#ebdfd2;border:0;padding:0;margin:0 0 17px;width:100%;text-align:left;color:white}
+.photo-card img{width:100%;height:auto;object-fit:cover;transition:transform .55s ease,filter .35s ease}
+.photo-card:nth-child(5n+1) img{aspect-ratio:4/5;object-fit:cover}
+.photo-card:nth-child(7n+2) img{aspect-ratio:1/1;object-fit:cover}
+.photo-card:nth-child(6n+4) img{aspect-ratio:4/6;object-fit:cover}
+.photo-card:hover img,.photo-card:focus-visible img{transform:scale(1.055);filter:brightness(.82)}
+.photo-card .overlay{position:absolute;inset:auto 0 0;padding:47px 17px 16px;background:linear-gradient(transparent,#1b110eab);opacity:0;transition:opacity .3s}
+.photo-card:hover .overlay,.photo-card:focus-visible .overlay{opacity:1}
+.photo-card .overlay strong{display:block;font-size:13px;font-weight:600;line-height:1.2}
+.photo-card .overlay small{display:block;letter-spacing:.15em;font-size:9px;text-transform:uppercase;margin-top:5px}
+.view-icon{position:absolute;right:14px;top:14px;width:35px;height:35px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#faf7f2;color:#48372b;opacity:0;transform:translateY(8px);transition:all .25s;font-size:19px}
+.photo-card:hover .view-icon,.photo-card:focus-visible .view-icon{opacity:1;transform:none}
+.gallery-actions{text-align:center;margin-top:43px}
+.loadmore{border:1px solid #70543f;background:transparent;padding:14px 35px;font-weight:700;font-size:11px;letter-spacing:.17em;text-transform:uppercase;color:#4c392c;transition:background .2s}
+.loadmore:hover{background:#4c392c;color:white}
+.loadmore[hidden]{display:none}
+.gallery-progress{color:#8a7a70;font-size:12px;margin-top:13px}
+.tip{margin-top:55px;border-top:1px solid #e7ddd1;padding-top:20px;text-align:center;color:#988879;font-size:12px}
+.cta{background:#3b2d23;color:#fff;padding:67px 0}
+.cta-inner{display:flex;justify-content:space-between;gap:40px;align-items:center}
+.cta h2{font-family:var(--display);font-size:clamp(34px,4.5vw,64px);font-weight:400;line-height:1.05;margin:12px 0}
+.cta p{color:#ddcbbd;margin:0}
+.cta-btn{display:inline-flex;align-items:center;justify-content:center;background:#fff;color:#433428;padding:16px 26px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.11em;white-space:nowrap}
+footer{padding:29px 0 38px;background:#f6f0e8;border-top:1px solid var(--line)}
+.foot{display:flex;gap:18px;justify-content:space-between;align-items:center;color:#806c5b;font-size:12px}
+.foot strong{font-family:var(--display);font-size:19px;font-weight:400;color:#4e3d31}
+.foot a{border-bottom:1px solid #c3b3a2}
+.lightbox{position:fixed;inset:0;z-index:60;background:#17110ff0;display:flex;align-items:center;justify-content:center;padding:55px 84px;opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s}
+.lightbox.is-open{opacity:1;visibility:visible}
+.lightbox-figure{max-height:100%;display:flex;flex-direction:column;align-items:center;gap:13px;min-width:0}
+.lightbox img{max-height:calc(100vh - 155px);max-width:min(100%,990px);object-fit:contain;box-shadow:0 10px 45px #0009}
+.lightbox-caption{color:#f0e8e3;text-align:center;font-size:13px}
+.lightbox-caption small{color:#c9b7a7;display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.lb-button{position:absolute;display:flex;justify-content:center;align-items:center;width:46px;height:46px;border:1px solid #ffffff6b;background:#ffffff1e;color:white;border-radius:50%;font-size:22px;transition:background .2s}
+.lb-button:hover{background:#ffffff48}
+.lb-close{right:26px;top:23px}.lb-prev{left:26px;top:48%}.lb-next{right:26px;top:48%}
+.lb-counter{position:absolute;left:28px;top:30px;color:#decfc1;font-size:11px;letter-spacing:.12em}
+.empty{text-align:center;padding:45px;color:#877567}
+@media(max-width:1080px){.nav-links{gap:17px}.nav-links>a:not(.book-btn){font-size:10px}.book-btn{padding:12px 14px}.hero-inner{gap:25px}.masonry{columns:3}}
+@media(max-width:770px){.container{width:calc(100% - 34px)}.nav{height:72px}.brand img{width:50px;height:50px}.brand-copy{font-size:19px}.menu-btn{display:block}.nav-links{display:none;position:absolute;top:100%;left:0;right:0;background:#faf7f2;padding:20px;box-shadow:0 12px 28px #33221122;flex-direction:column;align-items:stretch;gap:18px}.nav-links.open{display:flex}.nav-links>a:not(.book-btn){font-size:12px}.hero-inner{grid-template-columns:1fr;gap:25px;padding:46px 0 60px}.hero h1{font-size:clamp(58px,14vw,95px);margin:15px 0}.hero-frame{max-width:590px;width:100%;margin:7px auto 0;grid-template-rows:160px 160px}.hero-medallion{left:1px}.collection{padding:58px 0 69px}.masonry{columns:2;column-gap:11px}.photo-card{margin-bottom:11px}.filter-row{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:8px}.filter-row::-webkit-scrollbar{display:none}.filter-btn{padding:10px 14px}.cta-inner{flex-direction:column;align-items:flex-start;gap:24px}.foot{flex-direction:column;align-items:flex-start}.lightbox{padding:70px 30px}.lb-button{width:37px;height:37px;font-size:18px}.lb-prev{left:7px}.lb-next{right:7px}.lb-close{right:16px;top:17px}.lb-counter{left:16px;top:24px}.lightbox img{max-height:calc(100vh - 185px)}}
+@media(max-width:390px){.brand-copy{font-size:17px}.masonry{column-gap:9px}.photo-card{margin-bottom:9px}.hero-frame{grid-template-rows:125px 125px}.hero-medallion{padding:11px 15px}.hero-medallion span{font-size:22px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="container nav">
+<a class="brand" href="https://cozynailandheadspa.com" aria-label="Cozy Nail and Head Spa homepage"><img src="assets/images/logo.webp" alt="Cozy Nail and Head Spa logo"/><div class="brand-copy">COZY NAIL<span>&amp; HEAD SPA</span></div></a>
+<button class="menu-btn" id="menuButton" aria-expanded="false" aria-label="Open navigation">☰</button>
+<nav class="nav-links" id="mainNav"><a href="https://cozynailandheadspa.com/#services">Services</a><a href="https://cozynailandheadspa.com/#experience">Experience</a><a href="#collection" class="is-current">Gallery</a><a href="https://cozynailandheadspa.com/#reviews">Reviews</a><a href="https://cozynailandheadspa.com/#contact">Contact</a><a class="book-btn" href="https://booking.gocheckin.net/v2/16063" target="_blank" rel="noopener">Book Appointment ↗</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="container hero-inner"><div><div class="eyebrow">The Cozy Collection · Cypress, Texas</div><h1>Our beautiful <span>work.</span></h1><p class="hero-lead">From delicate nail art to fluttery lashes and moments of relaxation — discover inspiration for your next visit to Cozy Nail &amp; Head Spa.</p><div class="hero-lines"><i></i> Made with care, styled for you</div></div>
+<div class="hero-frame"><img src="assets/gallery/gallery-hero-nails.webp" alt="Elegant nail design"/><img id="heroLashes" alt="Lash extensions"/><img id="heroSpa" alt="Spa pedicure treatment"/><div class="hero-medallion"><span>Little details.</span><small>Beautiful moments.</small></div></div>
+</div></section>
+<section id="collection" class="collection"><div class="container"><div class="eyebrow section-overline">A little inspiration</div><h2 class="section-heading">Explore our gallery</h2><p class="section-sub">Browse by service, discover the details, and save a little inspiration for your next appointment.</p>
+<div class="filter-row" role="group" aria-label="Filter gallery by service" id="filters"></div>
+<div class="count-row"><span id="showingCount">Showing photos</span><span>Tap any photo to enlarge ↗</span></div>
+<div id="gallery" class="masonry" aria-live="polite"></div>
+<div class="gallery-actions"><button id="loadMore" class="loadmore" type="button">Load More Photos ↓</button><div id="progressText" class="gallery-progress"></div></div>
+<p class="tip">More inspiration is on the way. Follow our social pages for our latest work.</p>
+</div></section>
+<section class="cta"><div class="container cta-inner"><div><div class="eyebrow" style="color:#cbb294">Your next favorite look</div><h2>Something caught your eye?</h2><p>Let's make your next visit special. We'd love to see you at Cozy.</p></div><a class="cta-btn" href="https://booking.gocheckin.net/v2/16063" rel="noopener" target="_blank">Book Your Appointment ↗</a></div></section>
+</main>
+<footer><div class="container foot"><strong>COZY NAIL &amp; HEAD SPA</strong><span>14030 Telge Rd, Ste C · Cypress, TX 77429</span><span><a href="tel:+12817582111">(281) 758-2111</a> · <a href="index.html">Home ↗</a></span></div></footer>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
+<div class="lb-counter" id="lbCounter"></div><button type="button" class="lb-button lb-close" id="lbClose" aria-label="Close photo">✕</button><button type="button" class="lb-button lb-prev" id="lbPrev" aria-label="Previous photo">‹</button><figure class="lightbox-figure"><img id="lbPhoto" alt=""/><figcaption class="lightbox-caption" id="lbCaption"></figcaption></figure><button type="button" class="lb-button lb-next" id="lbNext" aria-label="Next photo">›</button>
+</div>
+<script src="assets/js/gallery-photos.js"></script>
+<script>
+(()=>{
+'use strict';
+const all=window.COZY_GALLERY_PHOTOS;
+const names=['All Photos','Nails','Lashes','Pedicures','Head Spa','Massage','Facials & Brows'];
+const filters=document.getElementById('filters'),gallery=document.getElementById('gallery'),more=document.getElementById('loadMore'),progress=document.getElementById('progressText'),count=document.getElementById('showingCount');
+let active='All Photos',limit=9,visible=[],lightboxIndex=0,lastFocused=null;
+document.getElementById('heroLashes').src=all.find(i=>i.category==='Lashes').src;
+document.getElementById('heroSpa').src=all.find(i=>i.category==='Pedicures').src;
+function filtered(){return active==='All Photos'?all:all.filter(i=>i.category===active)}
+function drawFilters(){filters.innerHTML='';names.forEach(name=>{const b=document.createElement('button');b.type='button';b.className='filter-btn';b.textContent=name;b.setAttribute('aria-pressed',String(active===name));b.onclick=()=>{active=name;limit=9;drawFilters();render();document.getElementById('collection').scrollIntoView({behavior:'smooth',block:'start'})};filters.append(b)})}
+function render(){const matches=filtered();visible=matches.slice(0,limit);const fragment=document.createDocumentFragment();visible.forEach((photo,index)=>{const b=document.createElement('button');b.className='photo-card';b.type='button';b.setAttribute('aria-label','View '+photo.title+' photo');const img=document.createElement('img');img.src=photo.src;img.alt=photo.alt;img.loading=index<6?'eager':'lazy';const caption=document.createElement('span');caption.className='overlay';const title=document.createElement('strong');title.textContent=photo.title;const category=document.createElement('small');category.textContent=photo.category;caption.append(title,category);const icon=document.createElement('span');icon.className='view-icon';icon.textContent='↗';b.append(img,caption,icon);b.onclick=()=>openPhoto(index);fragment.append(b)});gallery.replaceChildren(fragment);count.textContent=`${matches.length} photos · ${active}`;more.hidden=limit>=matches.length;progress.textContent=`Showing ${visible.length} of ${matches.length} photos`}
+more.onclick=()=>{limit+=9;render()};
+const lb=document.getElementById('lightbox'),photo=document.getElementById('lbPhoto'),cap=document.getElementById('lbCaption'),lbc=document.getElementById('lbCounter');
+function updateLightbox(){const item=visible[lightboxIndex];if(!item)return;photo.src=item.src;photo.alt=item.alt;cap.textContent='';const strong=document.createElement('strong');strong.textContent=item.title;const small=document.createElement('small');small.textContent=item.category;cap.append(strong,small);lbc.textContent=`${lightboxIndex+1} / ${visible.length}`}
+function openPhoto(index){lastFocused=document.activeElement;lightboxIndex=index;updateLightbox();lb.classList.add('is-open');lb.setAttribute('aria-hidden','false');document.body.classList.add('no-scroll');document.getElementById('lbClose').focus()}
+function close(){lb.classList.remove('is-open');lb.setAttribute('aria-hidden','true');document.body.classList.remove('no-scroll');photo.removeAttribute('src');if(lastFocused)lastFocused.focus()}
+function shift(diff){lightboxIndex=(lightboxIndex+diff+visible.length)%visible.length;updateLightbox()}
+document.getElementById('lbClose').onclick=close;document.getElementById('lbPrev').onclick=()=>shift(-1);document.getElementById('lbNext').onclick=()=>shift(1);
+lb.addEventListener('click',ev=>{if(ev.target===lb)close()});
+document.addEventListener('keydown',ev=>{if(!lb.classList.contains('is-open'))return;if(ev.key==='Escape')close();if(ev.key==='ArrowLeft')shift(-1);if(ev.key==='ArrowRight')shift(1);if(ev.key==='Tab'){const focusables=[document.getElementById('lbClose'),document.getElementById('lbPrev'),document.getElementById('lbNext')];const index=focusables.indexOf(document.activeElement);if(ev.shiftKey&&index===0){ev.preventDefault();focusables[2].focus()}else if(!ev.shiftKey&&index===2){ev.preventDefault();focusables[0].focus()}}});
+const menuButton=document.getElementById('menuButton'),nav=document.getElementById('mainNav');menuButton.addEventListener('click',()=>{const opened=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(opened))});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}));
+drawFilters();render();
+})();
+</script>
+</body></html>
