@@ -1,0 +1,35 @@
+COZY NAIL & HEAD SPA — KẾT NỐI GOOGLE SHEETS PROMOTION
+
+Link CSV đã được thêm vào assets/js/promotion-live.js theo link bạn gửi.
+
+GÓI NÀY CHỈ CÓ:
+- index.html: từ bản homepage bạn gửi + nút Call Us + View Full Gallery; chỉ thêm liên kết đến 2 file Promotion.
+- assets/css/promotion.css: giao diện Announcement Bar + Popup.
+- assets/js/promotion-live.js: đọc Google Sheets, tự bật/tắt và kiểm tra ngày.
+
+CÁCH ĐĂNG GITHUB:
+1. Giải nén ZIP.
+2. Vào repository cozy-nail-head-spa, upload index.html ở thư mục gốc.
+3. Upload promotion.css vào assets/css/.
+4. Upload promotion-live.js vào assets/js/.
+5. Commit changes và chờ GitHub Pages deploy.
+6. Mở https://cozynailandheadspa.com/ trong Incognito rồi thử cả desktop và điện thoại.
+
+CÁCH QUẢN LÝ:
+- Google Sheets tab Promotion, chỉ sửa cột B.
+- enabled YES/NO: bật hoặc tắt toàn bộ.
+- show_bar YES/NO: thanh thông báo.
+- show_popup YES/NO: popup.
+- start_date và end_date: YYYY-MM-DD, không bắt buộc; giờ Texas.
+- promotion_id: đổi tên khi bắt đầu ưu đãi mới, popup sẽ hiện lại cho khách từng đóng ưu đãi cũ.
+- popup_cooldown_days: sau khi khách đóng popup, số ngày chờ để popup tự hiện lại.
+- Không sửa các tên ở cột A; không đưa dữ liệu riêng tư vào sheet đã xuất bản.
+
+LƯU Ý QUAN TRỌNG:
+- Tệp ZIP không tự cập nhật website. Chỉ có hiệu lực sau khi bạn upload vào GitHub.
+- Trình duyệt có thể chặn việc đọc CSV công khai từ Google (CORS), nên có cách đọc dự phòng qua Google Visualization.
+- Nếu cả hai cách đều bị từ chối, popup sẽ ẩn; bạn hãy gửi ảnh chụp website và Console để kiểm tra quyền chia sẻ.
+- Chưa xác minh đọc thành công CSV trực tuyến trong môi trường tạo file này.
+- Sau khi sửa Google Sheets, thay đổi trên web có thể chậm vài phút do Google cache bản xuất bản.
+- Đường dẫn Trang Gallery riêng vẫn là gallery.html và các file Gallery khác phải được upload riêng nếu chưa có trên GitHub.
+- Trước khi ghi đè index.html, nếu bạn đã thay đổi website kể từ bản Call Us được duyệt, hãy gửi lại file mới để tránh mất chỉnh sửa.

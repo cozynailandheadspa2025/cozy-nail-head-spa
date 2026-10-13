@@ -1,0 +1,25 @@
+/* Cozy promotion feature. All classes scoped to cozy-promo. */
+.cozy-promo-bar{position:relative;z-index:80;display:flex;align-items:center;justify-content:center;gap:14px;min-height:49px;padding:9px 52px 9px 18px;background:linear-gradient(100deg,#412c28,#765044 62%,#543930);color:#fff7ec;box-shadow:0 6px 18px rgba(50,30,24,.12);font:500 12px/1.45 system-ui,-apple-system,Segoe UI,sans-serif;letter-spacing:.02em}
+.cozy-promo-bar[hidden],.cozy-promo-shade[hidden],.cozy-promo-panel[hidden]{display:none!important}
+.cozy-promo-bar-inner{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:4px 12px;text-align:center}
+.cozy-promo-bar .cozy-promo-spark{color:#e8c495;font-size:15px}
+.cozy-promo-bar .cozy-promo-bar-msg{font-weight:650}
+.cozy-promo-bar-cta{border:0;background:none;color:#fff6ed;font:700 11px/1.4 system-ui,sans-serif;cursor:pointer;letter-spacing:.055em;text-transform:uppercase;text-decoration:underline;text-underline-offset:4px;padding:3px 6px;white-space:nowrap}
+.cozy-promo-bar-close{position:absolute;top:50%;right:17px;transform:translateY(-50%);display:grid;place-items:center;width:31px;height:31px;color:#fff1e8;border:1px solid rgba(255,255,255,.32);background:transparent;border-radius:50%;font-size:19px;cursor:pointer}
+.cozy-promo-shade{position:fixed;inset:0;z-index:12000;display:flex;align-items:center;justify-content:center;padding:22px;background:rgba(29,20,18,.62);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);overflow-y:auto}
+.cozy-promo-panel{position:relative;display:grid;grid-template-columns:.94fr 1.06fr;width:min(835px,100%);max-height:calc(100dvh - 44px);overflow-y:auto;background:#fbf7f1;border-radius:19px;box-shadow:0 25px 90px rgba(17,10,7,.45);outline:1px solid #e8dcd0}
+.cozy-promo-panel img.cozy-promo-photo{display:block;height:100%;max-height:610px;min-height:480px;width:100%;object-fit:cover;object-position:center;background:#e7ded1}
+.cozy-promo-body{min-width:0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:62px 52px 52px;color:#42332c;font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+.cozy-promo-kicker{font-size:10px;letter-spacing:.19em;font-weight:700;color:#947758;text-transform:uppercase}
+.cozy-promo-line{width:44px;height:1px;background:#bfa186;margin:20px 0 15px}
+.cozy-promo-panel h2{margin:0 0 8px;color:#35251e;font:400 clamp(30px,3.5vw,43px)/1.12 Georgia,serif;letter-spacing:-.02em}
+.cozy-promo-offer{margin:13px 0 14px;color:#9d6c48;font:600 clamp(25px,3vw,37px)/1.16 Georgia,serif}
+.cozy-promo-description{color:#76665a;font:400 14px/1.75 system-ui,-apple-system,Segoe UI,sans-serif;max-width:310px;margin:0 0 23px}
+.cozy-promo-btn{display:inline-flex;align-items:center;justify-content:center;min-height:49px;padding:13px 25px;min-width:185px;background:#573c32!important;border:1px solid #573c32!important;border-radius:3px;color:#fff7ed!important;font:600 12px/1.2 system-ui,sans-serif;letter-spacing:.09em;text-decoration:none!important;text-transform:uppercase}
+.cozy-promo-btn:hover{background:#755443!important}
+.cozy-promo-fine{font-size:11px;margin-top:18px;color:#8b7b70}
+.cozy-promo-dismiss{margin-top:24px;border:0;background:transparent;color:#7a6558;text-decoration:underline;text-underline-offset:3px;cursor:pointer;font-size:12px}
+.cozy-promo-x{position:absolute;right:16px;top:16px;z-index:1;width:34px;height:34px;display:grid;place-items:center;background:#fff9f1;border:1px solid #d8c7b7;border-radius:50%;color:#553c2c;cursor:pointer;font-size:21px}
+body.cozy-promo-locked{overflow:hidden}
+@media(max-width:690px){.cozy-promo-bar{padding:8px 42px 8px 12px;font-size:11px;min-height:45px}.cozy-promo-shade{padding:12px;align-items:center}.cozy-promo-panel{grid-template-columns:1fr;max-width:390px;max-height:calc(100dvh - 24px);border-radius:12px}.cozy-promo-panel img.cozy-promo-photo{height:190px;min-height:0;max-height:none;object-position:center 48%}.cozy-promo-body{padding:23px 23px 28px}.cozy-promo-line{margin:12px 0}.cozy-promo-panel h2{font-size:28px}.cozy-promo-offer{font-size:28px;margin:8px 0}.cozy-promo-description{font-size:12px;margin:0 0 17px}.cozy-promo-fine{margin-top:12px}.cozy-promo-dismiss{margin-top:14px}}
+@media(prefers-reduced-motion:reduce){.cozy-promo-shade{backdrop-filter:none}}
