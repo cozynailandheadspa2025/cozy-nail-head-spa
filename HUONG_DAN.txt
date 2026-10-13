@@ -1,10 +1,16 @@
-CAP NHAT CHI BO BANG GIO TRONG FOOTER
+COZY NAIL & HEAD SPA – CHỈ CẬP NHẬT FAQ 3 CỘT
 
-1. Tai ZIP va giai nen.
-2. Vao GitHub repository cozy-nail-head-spa.
-3. Upload file index.html vao thu muc goc, thay file cu.
-4. Bam Commit changes, cho GitHub Pages deploy, kiem tra Incognito.
+1. Giải nén file ZIP.
+2. Vào repository GitHub cozy-nail-head-spa.
+3. Upload file index.html ở THƯ MỤC GỐC và thay file cũ.
+4. Bấm Commit changes. Đợi GitHub Pages cập nhật, rồi thử xem bằng Incognito.
 
-Chi xoa cot Business Hours o FOOTER. Phan Contact & Hours phia tren van duoc giu nguyen.
-File duoc tao tu ban index.html moi nhat da chuan bi trong cuoc tro chuyen (bao gom Promotion + Call Us + Gallery, va da bo banner Head Spa nen nau theo ban gan nhat).
-NEU ban chua upload cac ban truoc hoac vua chinh index.html tren GitHub, hay gui ban index.html moi nhat de tranh ghi de nhung phan moi.
+THAY ĐỔI DUY NHẤT:
+- Business Hours / A Few Questions / Our Location nằm cùng một hàng trên máy tính lớn.
+- FAQ giữ 3 câu (booking, dịch vụ, Head Spa); bỏ 2 câu trùng giờ và địa chỉ.
+- Trên máy tính bảng và điện thoại, các khung tự xếp để dễ đọc.
+- Bỏ khu FAQ riêng nằm dưới Contact & Hours.
+
+Các phần Gallery, Promotion, Call Us, bản đồ, review và footer được giữ nguyên từ bản cập nhật đã chuẩn bị gần nhất.
+
+QUAN TRỌNG: File này được tạo từ bản index.html cập nhật cuối cùng mà chúng ta đã chuẩn bị (sau khi bỏ bảng giờ ở footer). Nếu bạn đã thay đổi index.html trực tiếp trên GitHub sau đó, nên gửi bản hiện hành trước khi ghi đè.
