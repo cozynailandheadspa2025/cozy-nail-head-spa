@@ -1,16 +1,14 @@
-COZY NAIL & HEAD SPA – CHỈ CẬP NHẬT FAQ 3 CỘT
+CAP NHAT VIDEO PEDICURE 20 GIAY - COZY NAIL & HEAD SPA
 
-1. Giải nén file ZIP.
-2. Vào repository GitHub cozy-nail-head-spa.
-3. Upload file index.html ở THƯ MỤC GỐC và thay file cũ.
-4. Bấm Commit changes. Đợi GitHub Pages cập nhật, rồi thử xem bằng Incognito.
+Goi nay CHI thay video trang Pedicure. Khong sua index.html hay trang dich vu khac.
 
-THAY ĐỔI DUY NHẤT:
-- Business Hours / A Few Questions / Our Location nằm cùng một hàng trên máy tính lớn.
-- FAQ giữ 3 câu (booking, dịch vụ, Head Spa); bỏ 2 câu trùng giờ và địa chỉ.
-- Trên máy tính bảng và điện thoại, các khung tự xếp để dễ đọc.
-- Bỏ khu FAQ riêng nằm dưới Contact & Hours.
+1. Giai nen ZIP.
+2. Mo repository cozy-nail-head-spa tren GitHub.
+3. Vao assets/video/.
+4. Upload pedicure-real-2026.mp4 trong thu muc assets/video cua ZIP.
+5. Xac nhan thay the file cu cung ten, va nhan Commit changes.
+6. Doi GitHub Pages deploy, mo trang /services/pedicures.html bang Incognito hoac hard refresh.
 
-Các phần Gallery, Promotion, Call Us, bản đồ, review và footer được giữ nguyên từ bản cập nhật đã chuẩn bị gần nhất.
+Luu y: Ban trang Pedicure voi hinh mam spa dang dung duong dan ../assets/video/pedicure-real-2026.mp4. Neu tren GitHub file services/pedicures.html da duoc thay doi, hay xem gia tri src cua the source trong video de dam bao dung ten.
 
-QUAN TRỌNG: File này được tạo từ bản index.html cập nhật cuối cùng mà chúng ta đã chuẩn bị (sau khi bỏ bảng giờ ở footer). Nếu bạn đã thay đổi index.html trực tiếp trên GitHub sau đó, nên gửi bản hiện hành trước khi ghi đè.
+Khong upload ZIP truc tiep. Khong thay the file index.html.
