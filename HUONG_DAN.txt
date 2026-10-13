@@ -1,0 +1,12 @@
+COZY – BỎ RIÊNG BANNER HEAD SPA NỀN NÂU
+
+Đã bỏ phần “First time at Head Spa? There’s something for you.” rộng toàn màn hình.
+Giữ nguyên popup, announcement bar, video, Call Us, Gallery, Contact & Hours và Google Reviews.
+
+HƯỚNG DẪN:
+1. Giải nén ZIP.
+2. Mở GitHub repository cozy-nail-head-spa, tại thư mục gốc.
+3. Upload index.html, chọn ghi đè file cũ.
+4. Commit changes và kiểm tra bằng cửa sổ Incognito.
+
+LƯU Ý: File sửa dựa trên bản index.html gần nhất đã chuẩn bị cho Promotion. Nếu bạn đã chỉnh index.html trên GitHub sau đó, nên gửi lại bản mới trước khi ghi đè.
