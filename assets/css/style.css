@@ -170,3 +170,100 @@ html{scroll-behavior:smooth}body{overflow-x:hidden}
   .header .logo img{height:62px;width:80px}
   .header .logo .wordmark{font-size:15px;letter-spacing:.1em}
 }
+/* ================================================================
+   COZY NAIL & HEAD SPA — SOFT CHAMPAGNE GOLD (B+), approved theme
+   Date: 2026-10-15
+   Add this block to the END of the current assets/css/style.css.
+   Keep all existing CSS rules above it. No HTML/video/image changes.
+   ================================================================ */
+:root {
+  --ink: #4A4037;
+  --brown: #8C7563;
+  --gold: #956F45;
+  --cream: #FFFDF9;
+  --linen: #F7F0E8;
+  --blush: #F1E5D9;
+  --line: #E2D5C4;
+  --white: #FFFFFF;
+  --dark: #685447;
+  --card: #FFFEFC;
+  --on-dark: #FFFFFF;
+  --footer-bg: #4E4036;
+  --follow-bg: #F8F0E8;
+  --icon-bg: #FAF2E8;
+  --stamp-bg: #FFFCF7;
+  --header-bg: #FFFCF7F5;
+  --video-bg: #F1E7DD;
+  --button-gold: #927047;
+  --button-text: #FFFFFF;
+  --hero-eyebrow: #95734D;
+  --hero-text: #44352E;
+  --hero-border: #AC875E;
+}
+
+/* Page backgrounds, surfaces, and cards */
+body { background: var(--cream); }
+.white, .intro-strip { background: var(--white) !important; }
+.linen { background: var(--linen) !important; }
+.header { background: var(--header-bg) !important; border-bottom: 1px solid #DFC9A9 !important; }
+.topline { background: var(--dark) !important; color: var(--on-dark) !important; }
+.service-card, .cozy-tier, .cozy-v2-card,
+.cozy-review-card, .cozy-v2-faq, .cozy-v2-faq-card {
+  background: var(--card) !important;
+  border-color: var(--line) !important;
+}
+.cozy-v2-follow { background: var(--follow-bg) !important; border-color: #E4D3BD !important; }
+.cozy-v2-social-grid > a { background: var(--card) !important; border-color: var(--line) !important; }
+.cozy-v2-heading-icon { background: var(--icon-bg) !important; border-color: var(--line) !important; color: #947149 !important; }
+.cozy-v2-card-heading h3, .cozy-v2-follow-header h3 { color: var(--ink) !important; }
+.cozy-v2-time { color: #635648 !important; }
+.cozy-v2-faq a, .cozy-v2-inline-action { color: var(--gold) !important; }
+.cozy-tier.featured { border-color: #BEA078 !important; box-shadow: 0 14px 34px #5B4A3B10 !important; }
+.video-panel .video-text { background: var(--video-bg) !important; }
+.story-photo .stamp, .corner-card { background: var(--stamp-bg) !important; color: var(--ink) !important; }
+.gallery span { background: var(--card) !important; color: var(--ink) !important; }
+
+/* Soft Champagne hero: bright and welcoming, not dark */
+.hero {
+  background: linear-gradient(125deg, #F7EDE2 0%, #EADFD3 100%) !important;
+  color: var(--hero-text) !important;
+}
+.hero-text h1 em { color: #A78561 !important; }
+.hero-text p { color: #705D4D !important; }
+.hero .eyebrow { color: var(--hero-eyebrow) !important; }
+.hero-text .gold-line { background: #B99565 !important; }
+.hero-photo::after {
+  background: linear-gradient(90deg, #EADDD160, transparent 40%),
+              linear-gradient(0deg, #261A105e, transparent 46%) !important;
+}
+.hero .btn-outline { background: #FFFFFF82 !important; border-color: var(--hero-border) !important; color: var(--hero-text) !important; }
+
+/* Champagne gold buttons and fine accents */
+.btn-gold { background: var(--button-gold) !important; border-color: var(--button-gold) !important; color: var(--button-text) !important; }
+.btn-dark { background: var(--dark) !important; border-color: var(--dark) !important; color: var(--on-dark) !important; }
+.btn-outline { border-color: var(--brown) !important; color: var(--ink) !important; }
+.eyebrow, .text-link, .price-preview { color: var(--gold) !important; }
+.cozy-review-stars { color: #B18643 !important; }
+.hero .btn-gold, .header .btn-dark, .mobile-actions .center {
+  background: linear-gradient(135deg, #A98454 0%, #89673E 100%) !important;
+  border-color: #997248 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 9px 21px rgba(127,91,52,.20) !important;
+}
+.hero .btn-gold:hover, .header .btn-dark:hover, .mobile-actions .center:hover {
+  background: linear-gradient(135deg, #947044 0%, #765432 100%) !important;
+}
+.service-card:hover { border-color: #C5A67D !important; box-shadow: 0 18px 39px rgba(122,87,48,.11) !important; }
+.cozy-v2-social-grid > a:hover, .cozy-v2-social-grid > a:focus-visible { border-color: #BFA17B !important; }
+.cozy-v2-location-actions .btn-dark { background: #625043 !important; border-color: #625043 !important; color: #FFFFFF !important; }
+
+/* Header/mobile/footer contrast */
+.nav-links > a:hover { color: var(--gold) !important; }
+.cozy-v2-location-actions .btn-outline { color: var(--ink) !important; }
+.footer { background: var(--footer-bg) !important; }
+.footer .copyright { color: #E2D3C4; }
+@media (max-width: 760px) {
+  .nav-links { background: var(--header-bg) !important; }
+  .mobile-actions .center { box-shadow: none !important; }
+  .header .btn-dark:hover, .hero .btn-gold:hover { transform: none; }
+}
