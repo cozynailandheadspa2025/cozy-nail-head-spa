@@ -145,3 +145,28 @@ html{scroll-behavior:smooth}body{overflow-x:hidden}
 /* Follow Along above the Hours / Location cards */
 .cozy-contact-v2 .cozy-v2-follow{margin:0 0 26px}
 @media(max-width:700px){.cozy-contact-v2 .cozy-v2-follow{margin:0 0 16px}}
+
+/* Cozy logo enlargement — approved design, October 2026.
+   Scope changes to the header so footer size and service contents stay intact. */
+.header .nav{height:101px;gap:25px}
+.header .logo{gap:10px}
+.header .logo img{height:84px;width:109px}
+.header .logo .wordmark{font-size:20px}
+.header .logo .wordmark small{font-size:10px}
+.header .nav-links{gap:18px}
+@media(max-width:1020px){
+  .header .nav{height:88px}
+  .header .logo img{height:70px;width:91px}
+  .header .logo .wordmark{font-size:17px}
+  .header .logo .wordmark small{font-size:9px}
+}
+@media(max-width:760px){
+  .header .nav{height:80px}
+  .header .logo img{height:65px;width:83px}
+  .header .logo .wordmark{font-size:16px}
+  .header .logo .wordmark small{font-size:8px}
+}
+@media(max-width:430px){
+  .header .logo img{height:62px;width:80px}
+  .header .logo .wordmark{font-size:15px;letter-spacing:.1em}
+}
